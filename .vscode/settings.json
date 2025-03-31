@@ -1,0 +1,10 @@
+{
+  "typescript.tsdk": "/node_modules/typescript/lib",
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  // prioritize ArkType's "type" for autoimports
+  "typescript.preferences.autoImportSpecifierExcludeRegexes": [
+    "^(node:)?os$"
+  ]
+}
